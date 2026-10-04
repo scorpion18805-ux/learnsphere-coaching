@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LearnSphere Coaching</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="index,follow">
+  <meta name="generator" content="GrapesJS Studio">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="gjs-t-body font-body theme-light bg-main text-main"><div id="ifocu" class="site-shell"><header class="border-main bg-[color:var(--card)]/90 site-header"><div class="header-container" id="iczhh"><div class="brand-group"><div class="bg-primary-soft brand-mark">L</div><div class="brand-text"><span class="font-display text-main brand-name">LearnSphere</span><span class="text-muted brand-tagline">Coaching for focused, modern learners</span></div></div><div class="header-actions"><nav class="primary-navigation"><button type="button" class="border-main btn-secondary nav-button">Home</button><button type="button" class="border-main btn-secondary nav-button">Courses</button><button type="button" class="border-main btn-secondary nav-button">Practice</button><button type="button" class="border-main btn-secondary nav-button">Admin</button></nav><div class="border-main surface theme-switcher"><button type="button" class="text-main theme-button" id="i67vr">Light</button><button type="button" class="text-main theme-button" id="ini84">Dark</button><button type="button" class="text-main theme-button" id="imhjo">Ocean</button><button type="button" class="text-main theme-button" id="itm3n">Sunset</button></div></div></div></header><main id="ibfsb" class="main-content"><section id="home" class="home-page"><div class="border-main bg-primary-soft hero-section" id="ih8a2"><div class="hero-grid"><div class="hero-content" id="i0lhh"><div class="hero-eyebrow">Personalized academic support</div><div class="hero-copy"><h1 id="heroTitle" class="gjs-t-h1 font-display hero-heading">Learn smarter. Achieve more.</h1><p id="heroText" class="hero-description">Build confidence with structured coaching, practical study systems, and targeted practice sessions designed for school, college, and competitive exams.</p></div><div class="hero-metrics" id="insh5"><div class="metric-card"><div class="metric-value">12k+</div><div class="metric-label">Learners coached</div></div><div class="metric-card"><div class="metric-value">94%</div><div class="metric-label">Goal completion rate</div></div><div class="metric-card"><div class="metric-value">240+</div><div class="metric-label">Guided practice sets</div></div></div><div class="hero-buttons"><button type="button" class="primary-action" id="iqgxj">Explore courses</button><button type="button" class="secondary-action" id="i1mb6">Try a practice round</button></div></div><div class="hero-media" id="isaqg"><img src="https://app.grapesjs.com/api/assets/random-image?query=student%20study%20desk%20modern%20coaching&amp;w=900&amp;h=900" alt="Students studying together" class="hero-image" id="icvp2"/><div class="hero-overlay-card" id="icejz"><div class="overlay-header" id="iwf9g"><div class="overlay-text"><span class="overlay-title">Weekly study accelerator</span><span class="overlay-subtitle">Guided planning, practice analysis, and mentor feedback.</span></div><img src="https://api.iconify.design/lucide-line-chart.svg?color=5546df" alt="Analytics icon" class="overlay-icon"/></div></div></div></div></div><div class="featured-courses-section"><div class="section-header" id="ix33j"><div class="section-intro"><span class="text-primary section-eyebrow">Featured tracks</span><h2 class="gjs-t-h2 font-display">Available courses</h2><p class="text-muted section-description">Choose from structured pathways built around concept mastery, revision depth, and consistent exam performance.</p></div><a href="##" class="gjs-t-link border-main section-link">Project page</a></div><div id="homeCourses" class="course-grid"></div></div><div class="benefits-section"><div class="surface gjs-t-border benefit-card"><img src="https://api.iconify.design/lucide-book-open-check.svg?color=5546df" alt="Study icon" class="benefit-icon"/><h3 class="benefit-title">Concept-first teaching</h3><p class="text-muted benefit-text">Clear explanations that simplify difficult topics before practice begins.</p></div><div class="surface gjs-t-border benefit-card"><img src="https://api.iconify.design/lucide-clock-3.svg?color=5546df" alt="Time icon" class="benefit-icon"/><h3 class="benefit-title">Smart study planning</h3><p class="text-muted benefit-text">Weekly schedules that balance revision, homework, mock tests, and rest.</p></div><div class="surface gjs-t-border benefit-card"><img src="https://api.iconify.design/lucide-badge-check.svg?color=5546df" alt="Badge icon" class="benefit-icon"/><h3 class="benefit-title">Actionable feedback</h3><p class="text-muted benefit-text">Mistake analysis with specific next steps so learners improve faster.</p></div><div class="surface gjs-t-border benefit-card"><img src="https://api.iconify.design/lucide-users.svg?color=5546df" alt="Mentor icon" class="benefit-icon"/><h3 class="benefit-title">Mentor support</h3><p class="text-muted benefit-text">Supportive coaching that keeps students accountable and motivated.</p></div></div></section><section id="courses" class="page-hidden courses-page"><div class="courses-header"><div class="courses-intro"><span class="text-primary section-eyebrow">Learning paths</span><h2 class="gjs-t-h2 font-display">Our course library</h2><p class="text-muted courses-description">Browse carefully structured programs for school support, entrance preparation, and high-impact self-study.</p></div><div class="filter-panel"><div class="search-field-wrapper"><input type="text" id="courseSearch" placeholder="Search by course title" class="input-ui search-input"/><img src="https://api.iconify.design/lucide-search.svg?color=697386" alt="Search icon" class="search-icon"/></div><select type="text" id="courseLevel" class="input-ui level-select"><option value="all">All levels</option><option value="Foundation">Foundation</option><option value="Intermediate">Intermediate</option><option value="Advanced">Advanced</option></select></div></div><div id="coursesGrid" class="course-listing-grid"></div><div class="surface gjs-t-border advisory-section"><div class="advisory-copy"><h3 class="advisory-title">Need help choosing the right path?</h3><p class="text-muted">Tell us your current level, target exam, and weekly schedule. We will recommend the most suitable learning track and practice intensity.</p><ul class="advisory-list"><li class="advisory-item"><img src="https://api.iconify.design/lucide-check.svg?color=5546df" alt="Check icon" class="list-icon"/><span>Academic planning for school and competitive exams</span></li><li class="advisory-item"><img src="https://api.iconify.design/lucide-check.svg?color=5546df" alt="Check icon" class="list-icon"/><span>Customized revision and practice routines</span></li><li class="advisory-item"><img src="https://api.iconify.design/lucide-check.svg?color=5546df" alt="Check icon" class="list-icon"/><span>Progress reviews with mentor-style guidance</span></li></ul></div><form method="get" class="surface-soft gjs-t-border course-inquiry-form"><div class="form-header"><h4 class="form-title">Request guidance</h4><p class="text-muted form-subtitle">A quick inquiry form for personalized recommendations.</p></div><div class="form-field-group"><label for="studentName" class="form-label">Student name</label><input type="text" id="studentName" placeholder="Enter full name" class="input-ui form-input"/></div><div class="form-field-group"><label for="studentGoal" class="form-label">Target goal</label><input type="text" id="studentGoal" placeholder="Exam, grade level, or subject goal" class="input-ui form-input"/></div><div class="form-field-group"><label for="studentMessage" class="form-label">Additional notes</label><textarea id="studentMessage" placeholder="Share current challenges or preferences" class="input-ui form-textarea"></textarea></div><button type="button" class="gjs-t-button form-button">Submit inquiry</button></form></div></section><section id="quiz" class="page-hidden quiz-page"><div id="ipg3m7" class="quiz-header"><div class="quiz-intro"><span id="icqyih" class="text-primary section-eyebrow">Practice zone</span><h2 class="gjs-t-h2 font-display">Quick assessment</h2><p class="text-muted quiz-description">Take a short concept check and see how confidently you can apply what you know.</p></div><div class="border-main surface quiz-status-panel"><img src="https://api.iconify.design/lucide-timer-reset.svg?color=5546df" alt="Timer icon" class="quiz-status-icon"/><span id="quizProgressLabel" class="quiz-status-text">Question 1 of 3</span></div></div><div class="quiz-layout"><div id="ilhcl4" class="surface gjs-t-border quiz-card"><div class="border-main quiz-meta"><span class="text-primary quiz-badge">Adaptive practice</span><div class="progress-bar"><div id="progressFill" class="bg-primary progress-fill"></div></div></div><div class="question-area"><h3 id="quizQuestion" class="question-text">What is the primary purpose of active recall in studying?</h3><div id="quizOptions" class="option-list"></div></div><div id="quizFeedback" class="border-main surface-soft quiz-feedback"></div><div class="border-main quiz-actions"><button type="button" class="border-main btn-secondary reset-quiz-button">Reset</button><div class="action-button-group"><button type="button" class="gjs-t-button submit-answer-button">Submit answer</button><button type="button" class="border-main btn-secondary next-question-button">Next question</button></div></div></div><aside class="quiz-sidebar"><div class="surface gjs-t-border score-card"><div class="score-header"><h4 class="score-title">Current score</h4><img src="https://api.iconify.design/lucide-award.svg?color=5546df" alt="Award icon" class="score-icon"/></div><div id="quizScore" class="text-primary score-value">0 / 3</div><p class="text-muted score-text">Review each explanation after submitting to understand the reasoning behind the right answer.</p></div><div class="surface-soft gjs-t-border tip-card"><h4 class="tip-title">Practice tips</h4><ul class="text-muted tip-list"><li class="tip-item"><img src="https://api.iconify.design/lucide-circle.svg?color=5546df" alt="Bullet icon" class="tip-icon"/><span>Read all choices before selecting your answer.</span></li><li class="tip-item"><img src="https://api.iconify.design/lucide-circle.svg?color=5546df" alt="Bullet icon" class="tip-icon"/><span>Use elimination when multiple answers seem similar.</span></li><li class="tip-item"><img src="https://api.iconify.design/lucide-circle.svg?color=5546df" alt="Bullet icon" class="tip-icon"/><span>Focus on the concept tested, not just memorized wording.</span></li></ul></div></aside></div></section><section id="admin" class="page-hidden admin-page"><div id="ice56k" class="admin-header"><div class="admin-intro"><span id="ixavzw" class="text-primary section-eyebrow">Content controls</span><h2 class="gjs-t-h2 font-display">Admin dashboard</h2><p class="text-muted admin-description">Use this simple control panel to update page messaging and preview theme styles.</p></div><div class="border-main surface-soft text-muted admin-notice">Client-side preview only</div></div><div class="admin-grid"><div class="surface gjs-t-border content-editor-card"><div class="border-main card-header"><div class="card-intro"><h3 class="card-title">Homepage messaging</h3><p class="text-muted card-subtitle">Update the hero title and summary in real time.</p></div><img src="https://api.iconify.design/lucide-file-pen-line.svg?color=5546df" alt="Edit icon" class="card-icon"/></div><div class="admin-field-group"><label for="adminHeroTitle" class="admin-label">Hero title</label><input type="text" id="adminHeroTitle" value="Learn smarter. Achieve more." class="input-ui admin-input"/></div><div class="admin-field-group"><label for="adminHeroText" class="admin-label">Hero description</label><textarea id="adminHeroText" class="input-ui admin-textarea">Build confidence with structured coaching, practical study systems, and targeted practice sessions designed for school, college, and competitive exams.</textarea></div><div class="admin-actions"><button type="button" class="gjs-t-button save-content-button">Apply changes</button><button type="button" class="border-main btn-secondary reset-content-button">Reset content</button></div></div><div class="surface gjs-t-border theme-preview-card"><div class="border-main card-header"><div class="card-intro"><h3 class="card-title">Theme presets</h3><p class="text-muted card-subtitle">Switch visual tone to match your preferred coaching brand style.</p></div><img src="https://api.iconify.design/lucide-palette.svg?color=5546df" alt="Palette icon" class="card-icon"/></div><div class="theme-option-grid"><button type="button" class="border-main surface-soft theme-preview-button"><span class="theme-preview-label">Light</span><span class="theme-preview-swatch"></span></button><button type="button" class="border-main surface-soft theme-preview-button"><span class="theme-preview-label">Dark</span><span class="theme-preview-swatch"></span></button><button type="button" class="border-main surface-soft theme-preview-button"><span class="theme-preview-label">Ocean</span><span class="theme-preview-swatch"></span></button><button type="button" class="border-main surface-soft theme-preview-button"><span class="theme-preview-label">Sunset</span><span class="theme-preview-swatch"></span></button></div><div class="border-main admin-divider"></div><div class="border-main surface-soft admin-summary"><h4 class="summary-title">Publishing checklist</h4><div class="checklist-group"><label class="border-main checklist-item"><input type="checkbox" class="checklist-checkbox"/><span class="text-muted checklist-text">Review course descriptions for clarity and level accuracy.</span></label><label class="border-main checklist-item"><input type="checkbox" class="checklist-checkbox"/><span class="text-muted checklist-text">Confirm that practice questions reflect current coaching curriculum.</span></label><label class="border-main checklist-item"><input type="checkbox" class="checklist-checkbox"/><span class="text-muted checklist-text">Preview theme styles for readability across all sections.</span></label></div></div></div></div></section></main><div data-type-role="flex-row" id="ijko1c" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ipm41g" class="gjs-plg-flex-column"><div id="i1ltm9" class="surface gjs-t-border"><div id="isdjis"><span id="i5c2ok" class="text-muted"></span><span id="ivpa8a" class="text-muted">Developer &amp; Web Designer</span><span id="ip881o" class="font-display text-primary">Scorpion (sunny)</span><span id="i03sei" class="text-muted"></span></div></div></div></div><div id="i9a65z" class="footer-container"><div id="itmqhs" class="footer-brand"><span id="itkipt-2" class="font-display footer-title">LearnSphere Coaching</span><span id="iw24qd-2" class="text-muted footer-text">Structured coaching, meaningful practice, measurable progress.</span></div><div class="footer-links"><button type="button" class="gjs-t-link footer-link-button">Home</button><button type="button" class="gjs-t-link footer-link-button">Courses</button><button type="button" class="gjs-t-link footer-link-button">Practice</button></div></div><footer class="border-main site-footer"></footer></div><script id="i3ue26">
+    const courses = [
+      {
+        title: "Mathematics Mastery",
+        level: "Foundation",
+        duration: "8 weeks",
+        price: "$149",
+        description: "Strengthen arithmetic, algebra, and problem-solving through concept lessons and daily drills.",
+        image: "https://app.grapesjs.com/api/assets/random-image?query=math%20tutor%20study%20notes&w=640&h=420"
+      },
+      {
+        title: "Science Sprint",
+        level: "Intermediate",
+        duration: "10 weeks",
+        price: "$179",
+        description: "Integrated physics, chemistry, and biology coaching with guided experiments and exam strategies.",
+        image: "https://app.grapesjs.com/api/assets/random-image?query=science%20learning%20lab%20students&w=640&h=420"
+      },
+      {
+        title: "Exam Strategy Lab",
+        level: "Advanced",
+        duration: "6 weeks",
+        price: "$129",
+        description: "Time management, mock-test analysis, and score-boosting techniques for high-pressure assessments.",
+        image: "https://app.grapesjs.com/api/assets/random-image?query=exam%20preparation%20student%20planner&w=640&h=420"
+      },
+      {
+        title: "Academic Writing Studio",
+        level: "Intermediate",
+        duration: "5 weeks",
+        price: "$119",
+        description: "Improve structure, clarity, argument flow, and writing confidence for essays and reports.",
+        image: "https://app.grapesjs.com/api/assets/random-image?query=student%20writing%20desk%20notebook&w=640&h=420"
+      },
+      {
+        title: "Coding Fundamentals",
+        level: "Foundation",
+        duration: "12 weeks",
+        price: "$199",
+        description: "Learn logic, syntax, and project-building habits through beginner-friendly coding challenges.",
+        image: "https://app.grapesjs.com/api/assets/random-image?query=programming%20student%20laptop%20learning&w=640&h=420"
+      },
+      {
+        title: "Competitive Reasoning",
+        level: "Advanced",
+        duration: "9 weeks",
+        price: "$189",
+        description: "Sharpen verbal, quantitative, and analytical reasoning with targeted mock practice.",
+        image: "https://app.grapesjs.com/api/assets/random-image?query=reasoning%20test%20preparation&w=640&h=420"
+      }
+    ];
+
+    const quizQuestions = [
+      {
+        question: "What is the primary purpose of active recall in studying?",
+        options: [
+          "To reread notes until they feel familiar",
+          "To test memory by retrieving information without looking",
+          "To replace all forms of revision with flashcards",
+          "To memorize without understanding the topic"
+        ],
+        answer: 1,
+        explanation: "Active recall strengthens memory by forcing the brain to retrieve information rather than passively review it."
+      },
+      {
+        question: "Which study approach best supports long-term retention?",
+        options: [
+          "Cramming all chapters in one sitting",
+          "Studying only topics you already know well",
+          "Spacing review sessions over time",
+          "Highlighting every sentence in the textbook"
+        ],
+        answer: 2,
+        explanation: "Spaced repetition improves long-term retention by reviewing information at increasing intervals."
+      },
+      {
+        question: "When analyzing a mistake after a mock test, what should you identify first?",
+        options: [
+          "Whether the question looked difficult",
+          "The exact reason the error happened",
+          "How fast your classmates answered it",
+          "Whether the textbook uses the same wording"
+        ],
+        answer: 1,
+        explanation: "Understanding the exact reason for the mistake helps you correct the underlying gap rather than repeat the error."
+      }
+    ];
+
+    const themeMap = {
+      "theme-light": {
+        "--bg": "#f4f6fb",
+        "--card": "#ffffff",
+        "--text": "#20263a",
+        "--primary": "#5546df",
+        "--primary-2": "#8178ef",
+        "--muted": "#697386",
+        "--border": "#e4e7ef",
+        "--soft": "#eef1f8"
+      },
+      "theme-dark": {
+        "--bg": "#0f172a",
+        "--card": "#111827",
+        "--text": "#e5e7eb",
+        "--primary": "#8b7cff",
+        "--primary-2": "#5eead4",
+        "--muted": "#94a3b8",
+        "--border": "#243045",
+        "--soft": "#172033"
+      },
+      "theme-ocean": {
+        "--bg": "#eef8fb",
+        "--card": "#ffffff",
+        "--text": "#123043",
+        "--primary": "#0f9db7",
+        "--primary-2": "#4cc9f0",
+        "--muted": "#52758a",
+        "--border": "#cfe5ec",
+        "--soft": "#e3f3f7"
+      },
+      "theme-sunset": {
+        "--bg": "#fff5ef",
+        "--card": "#ffffff",
+        "--text": "#3c241d",
+        "--primary": "#df643b",
+        "--primary-2": "#f3a261",
+        "--muted": "#8b6b62",
+        "--border": "#f0d9cf",
+        "--soft": "#fff0e8"
+      }
+    };
+
+    let currentQuestion = 0;
+    let selectedOption = null;
+    let score = 0;
+    let answered = false;
+
+    function showPage(pageId) {
+      const pages = ["home", "courses", "quiz", "admin"];
+      pages.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add("page-hidden");
+      });
+      const active = document.getElementById(pageId);
+      if (active) active.classList.remove("page-hidden");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function setTheme(themeClass) {
+      const body = document.body;
+      const theme = themeMap[themeClass] || themeMap["theme-light"];
+      body.classList.remove("theme-light", "theme-dark", "theme-ocean", "theme-sunset");
+      body.classList.add(themeClass);
+
+      Object.entries(theme).forEach(([key, value]) => {
+        body.style.setProperty(key, value);
+      });
+
+      updateThemeButtons(themeClass);
+    }
+
+    function updateThemeButtons(activeTheme) {
+      const themeButtons = [
+        { id: "i67vr", theme: "theme-light" },
+        { id: "ini84", theme: "theme-dark" },
+        { id: "imhjo", theme: "theme-ocean" },
+        { id: "itm3n", theme: "theme-sunset" },
+        { id: "istu1f", theme: "theme-light" },
+        { id: "iajggk", theme: "theme-dark" },
+        { id: "iaa7w6", theme: "theme-ocean" },
+        { id: "i8denk", theme: "theme-sunset" }
+      ];
+
+      themeButtons.forEach(({ id, theme }) => {
+        const btn = document.getElementById(id);
+        if (!btn) return;
+        if (theme === activeTheme) {
+          btn.style.backgroundColor = "var(--primary)";
+          btn.style.color = "#ffffff";
+          btn.style.borderColor = "var(--primary)";
+          btn.style.boxShadow = "0 0 0 2px color-mix(in srgb, var(--primary) 25%, transparent)";
+        } else {
+          btn.style.backgroundColor = "";
+          btn.style.color = "";
+          btn.style.borderColor = "";
+          btn.style.boxShadow = "";
+        }
+      });
+    }
+
+    function bindThemeControls() {
+      const themeButtons = [
+        { id: "i67vr", theme: "theme-light" },
+        { id: "ini84", theme: "theme-dark" },
+        { id: "imhjo", theme: "theme-ocean" },
+        { id: "itm3n", theme: "theme-sunset" },
+        { id: "istu1f", theme: "theme-light" },
+        { id: "iajggk", theme: "theme-dark" },
+        { id: "iaa7w6", theme: "theme-ocean" },
+        { id: "i8denk", theme: "theme-sunset" }
+      ];
+
+      themeButtons.forEach(({ id, theme }) => {
+        const btn = document.getElementById(id);
+        if (!btn) return;
+        btn.addEventListener("click", function () {
+          setTheme(theme);
+        });
+      });
+
+      setTheme("theme-light");
+    }
+
+    function renderCourses() {
+      const homeWrap = document.getElementById("homeCourses");
+      const gridWrap = document.getElementById("coursesGrid");
+      const query = (document.getElementById("courseSearch")?.value || "").toLowerCase();
+      const level = document.getElementById("courseLevel")?.value || "all";
+      const filtered = courses.filter(course => {
+        const qMatch = course.title.toLowerCase().includes(query);
+        const lMatch = level === "all" || course.level === level;
+        return qMatch && lMatch;
+      });
+
+      const cardMarkup = filtered.map(course => `
+        <article data-gjs-name="Course Card" class="surface gjs-t-border overflow-hidden rounded-[1.35rem] border shadow-sm transition hover:-translate-y-0.5 hover:outline hover:outline-2 hover:outline-[color:var(--primary)]">
+          <img data-gjs-name="Course Image" src="${course.image}" alt="${course.title}" class="h-48 w-full object-cover" loading="lazy" />
+          <div data-gjs-name="Course Content" class="flex flex-col gap-4 p-5">
+            <div data-gjs-name="Course Meta" class="flex items-center justify-between gap-3">
+              <span data-gjs-name="Course Level" class="rounded-full bg-[color:var(--soft)] px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-primary">${course.level}</span>
+              <span data-gjs-name="Course Duration" class="text-sm text-muted">${course.duration}</span>
+            </div>
+            <div data-gjs-name="Course Copy" class="flex flex-col gap-2">
+              <h3 data-gjs-name="Course Title" class="text-xl font-extrabold">${course.title}</h3>
+              <p data-gjs-name="Course Description" class="text-sm text-muted">${course.description}</p>
+            </div>
+            <div data-gjs-name="Course Footer" class="flex items-center justify-between gap-3 border-t border-main pt-4">
+              <span data-gjs-name="Course Price" class="text-lg font-extrabold text-primary">${course.price}</span>
+              <button data-gjs-name="Course Button" type="button" onclick="showPage('admin')" class="rounded-xl border border-main btn-secondary px-4 py-2 text-sm font-bold transition hover:outline hover:outline-2 hover:outline-[color:var(--primary)]">Inquire</button>
+            </div>
+          </div>
+        </article>
+      `).join("");
+
+      const emptyMarkup = `
+        <div data-gjs-name="Empty State" class="col-span-full rounded-[1.35rem] border border-main surface-soft p-8 text-center">
+          <h3 data-gjs-name="Empty Title" class="text-xl font-extrabold">No matching courses found</h3>
+          <p data-gjs-name="Empty Text" class="mt-2 text-sm text-muted">Try a different search term or switch the selected level filter.</p>
+        </div>
+      `;
+
+      if (homeWrap) {
+        homeWrap.innerHTML = courses.slice(0, 3).map(course => `
+          <article data-gjs-name="Course Card" class="surface gjs-t-border overflow-hidden rounded-[1.35rem] border shadow-sm transition hover:-translate-y-0.5 hover:outline hover:outline-2 hover:outline-[color:var(--primary)]">
+            <img data-gjs-name="Course Image" src="${course.image}" alt="${course.title}" class="h-48 w-full object-cover" loading="lazy" />
+            <div data-gjs-name="Course Content" class="flex flex-col gap-4 p-5">
+              <div data-gjs-name="Course Meta" class="flex items-center justify-between gap-3">
+                <span data-gjs-name="Course Level" class="rounded-full bg-[color:var(--soft)] px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-primary">${course.level}</span>
+                <span data-gjs-name="Course Duration" class="text-sm text-muted">${course.duration}</span>
+              </div>
+              <h3 data-gjs-name="Course Title" class="text-xl font-extrabold">${course.title}</h3>
+              <p data-gjs-name="Course Description" class="text-sm text-muted">${course.description}</p>
+              <div data-gjs-name="Course Footer" class="flex items-center justify-between gap-3 border-t border-main pt-4">
+                <span data-gjs-name="Course Price" class="text-lg font-extrabold text-primary">${course.price}</span>
+                <button data-gjs-name="Course Button" type="button" onclick="showPage('courses')" class="rounded-xl border border-main btn-secondary px-4 py-2 text-sm font-bold transition hover:outline hover:outline-2 hover:outline-[color:var(--primary)]">View details</button>
+              </div>
+            </div>
+          </article>
+        `).join("");
+      }
+
+      if (gridWrap) {
+        gridWrap.innerHTML = filtered.length ? cardMarkup : emptyMarkup;
+      }
+    }
+
+    function renderQuiz() {
+      const q = quizQuestions[currentQuestion];
+      document.getElementById("quizQuestion").textContent = q.question;
+      document.getElementById("quizProgressLabel").textContent = `Question ${currentQuestion + 1} of ${quizQuestions.length}`;
+      document.getElementById("progressFill").style.width = `${((currentQuestion + 1) / quizQuestions.length) * 100}%`;
+      document.getElementById("quizScore").textContent = `${score} / ${quizQuestions.length}`;
+      document.getElementById("quizFeedback").classList.add("hidden");
+      document.getElementById("quizFeedback").textContent = "";
+      selectedOption = null;
+      answered = false;
+
+      const optionsWrap = document.getElementById("quizOptions");
+      optionsWrap.innerHTML = q.options.map((option, index) => `
+        <button data-gjs-name="Quiz Option" type="button" onclick="selectOption(${index})" class="quiz-option flex items-start gap-4 rounded-2xl border border-main surface-soft px-5 py-4 text-left transition hover:outline hover:outline-2 hover:outline-[color:var(--primary)]">
+          <span data-gjs-name="Option Marker" class="mt-0.5 flex h-7 w-7 items-center justify-center rounded-full border border-main text-sm font-bold">${String.fromCharCode(65 + index)}</span>
+          <span data-gjs-name="Option Text" class="font-semibold">${option}</span>
+        </button>
+      `).join("");
+    }
+
+    function selectOption(index) {
+      if (answered) return;
+      selectedOption = index;
+      const items = document.querySelectorAll(".quiz-option");
+      items.forEach((item, i) => {
+        item.classList.remove("option-selected");
+        if (i === index) item.classList.add("option-selected");
+      });
+    }
+
+    function submitAnswer() {
+      if (selectedOption === null || answered) return;
+      const q = quizQuestions[currentQuestion];
+      const feedback = document.getElementById("quizFeedback");
+      answered = true;
+      feedback.classList.remove("hidden");
+
+      if (selectedOption === q.answer) {
+        score += 1;
+        feedback.textContent = `Correct. ${q.explanation}`;
+        feedback.className = "rounded-2xl border border-main surface-soft px-4 py-3 text-sm font-semibold text-[color:var(--gjs-t-color-success)]";
+      } else {
+        feedback.textContent = `Not quite. ${q.explanation}`;
+        feedback.className = "rounded-2xl border border-main surface-soft px-4 py-3 text-sm font-semibold text-[color:var(--gjs-t-color-error)]";
+      }
+
+      document.getElementById("quizScore").textContent = `${score} / ${quizQuestions.length}`;
+    }
+
+    function nextQuestion() {
+      if (!answered) return;
+      if (currentQuestion < quizQuestions.length - 1) {
+        currentQuestion += 1;
+        renderQuiz();
+      } else {
+        const feedback = document.getElementById("quizFeedback");
+        feedback.classList.remove("hidden");
+        feedback.className = "rounded-2xl border border-main surface-soft px-4 py-3 text-sm font-semibold text-primary";
+        feedback.textContent = `Quiz complete. Final score: ${score} out of ${quizQuestions.length}. Reset to try again.`;
+      }
+    }
+
+    function resetQuiz() {
+      currentQuestion = 0;
+      score = 0;
+      selectedOption = null;
+      answered = false;
+      renderQuiz();
+    }
+
+    function applyHeroContent() {
+      const title = document.getElementById("adminHeroTitle").value.trim();
+      const text = document.getElementById("adminHeroText").value.trim();
+      document.getElementById("heroTitle").textContent = title || "Learn smarter. Achieve more.";
+      document.getElementById("heroText").textContent = text || "Build confidence with structured coaching, practical study systems, and targeted practice sessions designed for school, college, and competitive exams.";
+      showPage("home");
+    }
+
+    function resetHeroContent() {
+      document.getElementById("adminHeroTitle").value = "Learn smarter. Achieve more.";
+      document.getElementById("adminHeroText").value = "Build confidence with structured coaching, practical study systems, and targeted practice sessions designed for school, college, and competitive exams.";
+      applyHeroContent();
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      renderCourses();
+      renderQuiz();
+      bindThemeControls();
+
+      const search = document.getElementById("courseSearch");
+      const level = document.getElementById("courseLevel");
+      if (search) search.addEventListener("input", renderCourses);
+      if (level) level.addEventListener("change", renderCourses);
+    });
+  </script></body>
+</html>
